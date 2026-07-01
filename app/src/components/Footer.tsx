@@ -122,6 +122,15 @@ export function Footer() {
           </p>
           <p className="text-slate-500 text-sm flex items-center gap-1">
             Fait avec <Heart className="w-3 h-3 text-mind-pink fill-mind-pink" /> au Cameroun
+            <span className="mx-1">&mdash;</span>
+            <a
+              href="https://www.beonweb.cm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-mind-blue transition-colors duration-300"
+            >
+              Conçu par Beonweb
+            </a>
           </p>
         </div>
       </div>
